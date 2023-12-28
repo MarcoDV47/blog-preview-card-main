@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'Figtree-Italic';
+    src: url(../fonts/Figtree-VariableFont_wght.ttf);
+}
+
+html {
+    font-family: 'Figtree-Italic';
+}
+
+div.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--primary);
+}
+
+main.wrapper {
+    max-height: 32.6em;
+    max-width: 24em;
+    padding: 1.4em 1.45em;
+    margin: 0 1.5em;
+    background-color: var(--neutral-1);
+    box-shadow: 8px 8px var(--neutral-3);
+    border: 1px solid var(--neutral-3);
+    border-radius: 20px;
+}
+
+.wrapper header div.image {
+    background-image: url(../images/illustration-article.svg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    max-width: 21em;
+    border-radius: 11px;
+    margin-bottom: 1.55em;
+}
+
+.wrapper header p.article-tag {
+    display: inline-block;
+    font-size: .88em;
+    font-weight: 800;
+    padding: .4em .87em;
+    background-color: var(--primary);
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.wrapper header p.time-info {
+    font-size: 0.88em;
+    font-weight: 600;
+    color: var(--neutral-3);
+    margin-bottom: 1.24em;
+}
+
+.wrapper main h1 {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-bottom: .7em;
+    transition: .2s ease;
+}
+.wrapper main h1:hover{
+    color: var(--primary);
+}
+
+.wrapper main p {
+    color: var(--neutral-2);
+    line-height: 1.5em;
+    font-weight: 500;
+    margin-bottom: 1.4em;
+}
+
+.wrapper footer.author-info {
+    display: flex;
+    align-items: center;
+    gap: .75em;
+}
+
+.wrapper footer.author-info img {
+    width: 2em;
+}
+
+.wrapper footer a.author-name {
+    font-size: .88em;
+    font-weight: 800;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 11px;
+    background-color: var(--neutral-3);
+    padding: 1em 1em .5em 1em;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    border: 1px solid var(--neutral-3);
+    border-bottom: 0;
+    color: var(--neutral-1);
+}
+
+.attribution a {
+    color: var(--primary);
+    text-decoration: none;
+}

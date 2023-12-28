@@ -28,12 +28,11 @@ main.wrapper {
     border-radius: 20px;
 }
 
-.wrapper header div.image {
-    background-image: url(../images/illustration-article.svg);
-    background-size: cover;
-    background-position: center;
+.wrapper header img {
     height: 200px;
-    max-width: 21em;
+    max-width: 100%;
+    min-width: 235px;
+    object-fit: cover;
     border-radius: 11px;
     margin-bottom: 1.55em;
 }

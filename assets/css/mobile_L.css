@@ -2,10 +2,6 @@ main.wrapper {
     max-height: 31.4em;
 }
 
-div.image {
-    min-width: 235px;
-}
-
 .wrapper header p.article-tag {
     font-size: .77em;
     padding: .45em .95em;
